@@ -13,6 +13,7 @@ public class Dominos {
             valorCompra = 7000*porciones;
             if (agregarSalsa.equals("Si") || agregarSalsa.equals("si")){
                 valorCompra += 3000;
+                System.out.println("El valor total de su compra es de " + valorCompra);
             } else {
                 System.out.println("El valor de la compra de " + porciones + " porciones de pizza es de " + valorCompra);
             }
@@ -20,13 +21,15 @@ public class Dominos {
             valorCompra = 5000*porciones;
             if (agregarSalsa.equals("Si") || agregarSalsa.equals("si")){
                 valorCompra += 3000;
+                System.out.println("El valor total de su compra es de " + valorCompra);
             } else {
                 System.out.println("El valor de la compra de " + porciones + " porciones de sandwich es de " + valorCompra);
             }
         } else if (pedido.equals("Ensalada") || pedido.equals("ensalada")) {
             valorCompra = 15000*porciones;
             if (agregarSalsa.equals("Si") || agregarSalsa.equals("si")){
-                valorCompra += 3000;
+                valorCompra+=3000;
+                System.out.println("El valor total de su compra es de " + valorCompra);
             } else {
                 System.out.println("El valor de la compra de " + porciones + " porciones de ensalada es de " + valorCompra);
             }
